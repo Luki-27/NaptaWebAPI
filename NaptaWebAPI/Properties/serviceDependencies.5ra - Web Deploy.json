@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/naptawebapidbserver/databases/NaptaWebAPI_db",
+      "type": "mssql.azure",
+      "connectionId": "ConNaptaDB"
+    },
+    "identityapp1": {
+      "type": "identityapp.aad"
+    }
+  }
+}
